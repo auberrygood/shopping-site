@@ -54,7 +54,8 @@ def read_melon_types_from_file(filepath):
              price,
              img_url,
              color,
-             seedless) = line.strip().split("|")
+             seedless
+            ) = line.strip().split("|")
     
             price = float(price)
     
